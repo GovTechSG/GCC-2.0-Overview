@@ -50,13 +50,13 @@ With the Policy-as-Code approach, we define, update, share and enforce policies 
 
 ## Continuous compliance
 
-We have used a *Light-touch* approach with cloud-native solutions. We use native solutions such as [AWS Config](https://aws.amazon.com/config/) to achieve continuous compliance. By default, all the resources we provision have a policy compliance check. As we define policies as codes, it reduces the latency in security assessments. In other words, it is possible to evaluate the compliance state of cloud workloads quickly, and the resource configuration changes are detected earlier. Services such as [EventBridge](https://aws.amazon.com/eventbridge/)help detect specific user activities.
+We have used a *Light-touch* approach with cloud-native solutions. We use native solutions such as [AWS Config](https://aws.amazon.com/config/) to achieve continuous compliance. By default, all the resources we provision have a policy compliance check. As we define policies as codes, it reduces the latency in security assessments. In other words, it is possible to evaluate the compliance state of cloud workloads quickly, and the resource configuration changes are detected earlier. Services such as [EventBridge](https://aws.amazon.com/eventbridge/) help detect specific user activities.
 
 ## Remote administration
 
 Native solutions from CSPs enable remote administration to manage, access, and troubleshoot cloud resources, including Elastic Compute Cloud instances and virtual machines. They provide a consistent way to gather operational insights, carry out routine management tasks, track your development, test and production environments and proactively act on events or active incidents.
 
-For example, AWS [Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) (SSM) with [SSM Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html)allows remote administration such as SSH terminal remote administration and RDP remote administration with Fleet Manager, configuration management, patching operating systems and execute Policy-as-Code inspections.
+For example, [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) with [SSM Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html) allows remote administration such as SSH terminal remote administration and RDP remote administration with Fleet Manager, configuration management, patching operating systems and execute Policy-as-Code inspections.
 
 ## Continuous log export and retention capability
 
