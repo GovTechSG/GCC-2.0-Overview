@@ -1,6 +1,6 @@
 # About GCC 2.0
 
-The GCC platform is now redesigned to be more user-centric and facilitates easy and quick adoption of commercial cloud solutions provided by the leading cloud service providers such as AWS, Azure and Google Cloud.
+The GCC platform is now redesigned to be more user-centric, and this facilitates easy and quick adoption of commercial cloud solutions provided by the leading cloud service providers such as AWS, Azure and Google Cloud.
 
 Based on the feedback from the initial government commercial cloud platform - GCC 1.0 users, and also with our key learning points over the past two years, we have improved GCC 1.0.
 
@@ -23,8 +23,8 @@ We have streamlined the GCC onboarding with the recent improvements and made the
 ![streamlined-onboarding](images/streamlined-onboarding.png)
 
 >- **Prerequisite(s) to onboard GCC 2.0:**
->- [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) which is the identity and access management service is a prerequisite for any user onboarding GCC 2.0.
->- To access government engineering resources from your internet device, enrol the device with [SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/) for a secured access.  
+>- [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) which is the identity and access management service.
+>- To access government engineering resources from your internet device, enrol the device with [SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/) for secured access.  
 
 ## Automated workflows
 
@@ -36,7 +36,7 @@ Public officers can access the government engineering resources from their GSIB 
 
 When you onboard your internet device to SEED,  it becomes a Government Managed Device (GMD). SEED provides greater visibility of the endpoints leading to continuous, real-time security posture analysis. It is a paradigm shift from the traditional perimeter-based security model to the Zero Trust model.
 
-If a non-compliant device tries to access the government engineering resources, SEED automatically revokes the access for this device. End-to-end encryption is available for transactions between the GMD and the hosted service. .
+If a non-compliant device tries to access the government engineering resources, SEED automatically revokes the access for this device. End-to-end encryption is available for the transactions between the GMD and the hosted service.
 
 ## Reduced cost
 
@@ -50,13 +50,13 @@ With the Policy-as-Code approach, we define, update, share and enforce policies 
 
 ## Continuous compliance
 
-We have used a *Light-touch* approach with cloud-native solutions. We use native solutions such as [AWS Config](https://aws.amazon.com/config/) to achieve continuous compliance. By default, all the resources we provision have a policy compliance check. As we define policies as codes, it reduces the latency in security assessments. In other words, it is possible to evaluate the compliance state of cloud workloads quickly, and the resource configuration changes are detected earlier. Services such as [EventBridge](https://aws.amazon.com/eventbridge/)help detect specific user activities.
+We have used a *Light-touch* approach with cloud-native solutions. We use native solutions such as [AWS Config](https://aws.amazon.com/config/) to achieve continuous compliance. By default, all the resources we provision have a policy compliance check. As we define policies as codes, it reduces the latency in security assessments. In other words, it is possible to evaluate the compliance state of cloud workloads quickly, and the resource configuration changes are detected earlier. Services such as [EventBridge](https://aws.amazon.com/eventbridge/) help detect specific user activities.
 
 ## Remote administration
 
 Native solutions from CSPs enable remote administration to manage, access, and troubleshoot cloud resources, including Elastic Compute Cloud instances and virtual machines. They provide a consistent way to gather operational insights, carry out routine management tasks, track your development, test and production environments and proactively act on events or active incidents.
 
-For example, AWS [Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) (SSM) with [SSM Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html)allows remote administration such as SSH terminal remote administration and RDP remote administration with Fleet Manager, configuration management, patching operating systems and execute Policy-as-Code inspections.
+For example, [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) with [SSM Agent](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html) allows remote administration such as SSH terminal remote administration and RDP remote administration with Fleet Manager, configuration management, patching operating systems and execute Policy-as-Code inspections.
 
 ## Continuous log export and retention capability
 
