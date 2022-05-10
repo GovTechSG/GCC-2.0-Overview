@@ -1,6 +1,6 @@
 # About GCC 2.0
 
-The GCC platform is now redesigned to be more user-centric and facilitates easy and quick adoption of commercial cloud solutions provided by the leading cloud service providers such as AWS, Azure and Google Cloud.
+The GCC platform is now redesigned to be more user-centric, and this facilitates easy and quick adoption of commercial cloud solutions provided by the leading cloud service providers such as AWS, Azure and Google Cloud.
 
 Based on the feedback from the initial government commercial cloud platform - GCC 1.0 users, and also with our key learning points over the past two years, we have improved GCC 1.0.
 
@@ -23,8 +23,8 @@ We have streamlined the GCC onboarding with the recent improvements and made the
 ![streamlined-onboarding](images/streamlined-onboarding.png)
 
 >- **Prerequisite(s) to onboard GCC 2.0:**
->- [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) which is the identity and access management service is a prerequisite for any user onboarding GCC 2.0.
->- To access government engineering resources from your internet device, enrol the device with [SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/) for a secured access.  
+>- [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) which is the identity and access management service.
+>- To access government engineering resources from your internet device, enrol the device with [SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/) for secured access.  
 
 ## Automated workflows
 
@@ -36,7 +36,7 @@ Public officers can access the government engineering resources from their GSIB 
 
 When you onboard your internet device to SEED,  it becomes a Government Managed Device (GMD). SEED provides greater visibility of the endpoints leading to continuous, real-time security posture analysis. It is a paradigm shift from the traditional perimeter-based security model to the Zero Trust model.
 
-If a non-compliant device tries to access the government engineering resources, SEED automatically revokes the access for this device. End-to-end encryption is available for transactions between the GMD and the hosted service. .
+If a non-compliant device tries to access the government engineering resources, SEED automatically revokes the access for this device. End-to-end encryption is available for the transactions between the GMD and the hosted service.
 
 ## Reduced cost
 
