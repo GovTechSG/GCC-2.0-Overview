@@ -19,6 +19,6 @@
 
 
 > **Note:**
-> If you have issues with your CSP or their services, raise incident support tickets with your respective CSP.
-> When you raise a support request, your Tenant Admin or Tenant Manager has to approve it.
-> In GCC 2.0, an approved support request has an SLA of three business days.
+>- If you have issues with your CSP or their services, raise incident support tickets with your respective CSP.
+>- When you raise a support request, your Tenant Admin or Tenant Manager has to approve it.
+>- In GCC 2.0, an approved support request has an SLA of three business days.
