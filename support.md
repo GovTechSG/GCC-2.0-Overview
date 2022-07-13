@@ -1,6 +1,6 @@
 # GCC 2.0 support
 
-## General queries
+## General queries Test
 
 | Query Category  | Support Channel |
 | ------------- |:-------------|
