@@ -28,7 +28,7 @@ We have streamlined the GCC onboarding with the recent improvements and made the
 
 ## Automated workflows
 
-The workflow for creating tenant accounts, CSP accounts and managing cloud users are automated now, shortening the turnaround time and eliminating the need to raise service requests. Further, agencies need not apply for a dedicated single mail account for each cloud account.
+The workflow for creating tenant accounts, CSP accounts and managing cloud users are automated now, shortening the turnaround time and eliminating the need to create service request. Further, agencies need not apply for a dedicated single mail account for each cloud account.
 
 ## Enhanced cyber security
 
